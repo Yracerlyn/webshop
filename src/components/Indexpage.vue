@@ -10,7 +10,8 @@
               <h5>{{ product.name }}</h5>
               <p>{{ product.desc }}</p>
               <p>{{ product.price }}</p>
-              <button type="button" class="btn btn-success btn-sm" @click="add_to_cart(product.id)">Ajouter au panier</button>
+              <button type="button" class="btn btn-success btn-sm" @click="add_to_cart(product.id)">Ajouter au panier
+              </button>
             </div>
           </div>
         </div>
@@ -45,7 +46,7 @@
 </template>
 
 <script>
-import { Stock, Cart } from '../manager';
+import {Stock, Cart} from '../manager';
 
 export default {
   name: 'IndexPage',

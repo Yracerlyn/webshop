@@ -1,4 +1,4 @@
-import { API_URL } from '/src/env';
+import {API_URL} from '/src/env';
 
 class Product {
     constructor(id = "", name = "", desc = "", price = 0) {
@@ -79,4 +79,4 @@ class Cart {
     }
 }
 
-export { Product, Stock, Cart };
+export {Product, Stock, Cart};
